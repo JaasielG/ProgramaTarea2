@@ -26,7 +26,7 @@ espacios [ \t\n\r]+
 {palabra_reservada} {printf("Se encontro una palabra reservada:%s\n",yytext);}
 {id} {printf("Se encontre un id:%s\n",yytext);}
 {operador} {printf("Se encontro un operador:%s\n",yytext);}
-{sim_puntuacion} {printf("Se encontro un simbolo de puntuacion:%s\n",yytext);}
+{sin_puntuacion} {printf("Se encontro un simbolo de puntuacion:%s\n",yytext);}
 {espacios}  {/* Ignorar los espacios */}
 {comentarios} {/* Ignorar los comentarios */}
 
